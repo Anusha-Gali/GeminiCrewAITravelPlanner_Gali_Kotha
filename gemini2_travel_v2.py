@@ -12,8 +12,8 @@ from datetime import datetime  # For working with dates and times
 from functools import lru_cache  # For caching function results
 
 # Loading API Keys from environment variables, with default fallback values
-GEMINI_API_KEY = os.getenv("GOOGLE_API_KEY", "AIzaSyA5ejJeiMmT2KjxaLjEp-4XdI-9ALyO-6s")
-SERP_API_KEY = os.getenv("SERP_API_KEY", "f27a144cc55e337cbeb657249175cf45190654e61b246d4d36d61a6bbd76bc7e")
+GEMINI_API_KEY = os.getenv("GOOGLE_API_KEY", "")
+SERP_API_KEY = os.getenv("SERP_API_KEY", "")
 
 # Initializing Logger for the application
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
