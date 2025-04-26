@@ -56,7 +56,7 @@ The system leverages:
 
 1. Clone the repository
 ```bash
-git clone the repository
+git clone (https://github.com/Anusha-Gali/GeminiCrewAITravelPlanner_Gali_Kotha.git)
 cd gemini-crewai-travelplanner
 ```
 
@@ -159,7 +159,7 @@ The application follows a modular architecture:
    - Real-time data display with filtering options
    - Downloadable itinerary generation
 
-Team Members;
+Team Members:
 Anusha Gali 002898649
 Nikhil Kotha 002651481
 
